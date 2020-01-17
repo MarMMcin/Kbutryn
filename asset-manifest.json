@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Kbutryn/static/css/main.0e2013f3.chunk.css",
-    "main.js": "/Kbutryn/static/js/main.104d87e0.chunk.js",
-    "main.js.map": "/Kbutryn/static/js/main.104d87e0.chunk.js.map",
+    "main.js": "/Kbutryn/static/js/main.eec5b477.chunk.js",
+    "main.js.map": "/Kbutryn/static/js/main.eec5b477.chunk.js.map",
     "runtime~main.js": "/Kbutryn/static/js/runtime~main.73831f4a.js",
     "runtime~main.js.map": "/Kbutryn/static/js/runtime~main.73831f4a.js.map",
     "static/js/2.5cf4c833.chunk.js": "/Kbutryn/static/js/2.5cf4c833.chunk.js",
     "static/js/2.5cf4c833.chunk.js.map": "/Kbutryn/static/js/2.5cf4c833.chunk.js.map",
     "index.html": "/Kbutryn/index.html",
-    "precache-manifest.9ac89d4da6114431d84fe7ccf35fd51e.js": "/Kbutryn/precache-manifest.9ac89d4da6114431d84fe7ccf35fd51e.js",
+    "precache-manifest.672da1ce2f02c79a79948cfe677943d3.js": "/Kbutryn/precache-manifest.672da1ce2f02c79a79948cfe677943d3.js",
     "service-worker.js": "/Kbutryn/service-worker.js",
     "static/css/main.0e2013f3.chunk.css.map": "/Kbutryn/static/css/main.0e2013f3.chunk.css.map",
     "static/media/Krk1.jpg": "/Kbutryn/static/media/Krk1.0b30d12b.jpg",
@@ -27,6 +27,6 @@
     "static/media/nieruch3.jpg": "/Kbutryn/static/media/nieruch3.1fea405c.jpg",
     "static/media/nieruchomosc.jpg": "/Kbutryn/static/media/nieruchomosc.1f0b46e0.jpg",
     "static/media/nieruchomosc2.jpg": "/Kbutryn/static/media/nieruchomosc2.3764e39b.jpg",
-    "static/media/swiadectwo.jpg": "/Kbutryn/static/media/swiadectwo.5d51ae97.jpg"
+    "static/media/swiadectwo.jpg": "/Kbutryn/static/media/swiadectwo.9aec15c0.jpg"
   }
 }

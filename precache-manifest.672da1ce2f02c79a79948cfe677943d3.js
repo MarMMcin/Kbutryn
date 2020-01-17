@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58cabab9d1d29e224e044b2422f6c31e",
+    "revision": "9397655c25ffb944576f789bf3a3f113",
     "url": "/Kbutryn/index.html"
   },
   {
-    "revision": "b593e658136cbeffde37",
+    "revision": "3b2274cb70421ccf5d31",
     "url": "/Kbutryn/static/css/main.0e2013f3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kbutryn/static/js/2.5cf4c833.chunk.js"
   },
   {
-    "revision": "b593e658136cbeffde37",
-    "url": "/Kbutryn/static/js/main.104d87e0.chunk.js"
+    "revision": "3b2274cb70421ccf5d31",
+    "url": "/Kbutryn/static/js/main.eec5b477.chunk.js"
   },
   {
     "revision": "25f2d226f57619e41be3",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kbutryn/static/media/nieruchomosc2.3764e39b.jpg"
   },
   {
-    "revision": "5d51ae97bc2b401d2644bb8e2dbcd989",
-    "url": "/Kbutryn/static/media/swiadectwo.5d51ae97.jpg"
+    "revision": "9aec15c03fba25edd2934e22c2ca9c64",
+    "url": "/Kbutryn/static/media/swiadectwo.9aec15c0.jpg"
   }
 ]);

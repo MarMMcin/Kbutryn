@@ -111,7 +111,7 @@ class MainPage extends Component {
           <Link to="/ofirmie">
             <div className="container">
               <span className="text1">KBUTRYN</span>
-              <span className="text2">Wycena, nieruchomości, geodezja</span>
+              <span className="text2">wycena, nieruchomości, geodezja</span>
             </div>{" "}
           </Link>
           <div className="bg"></div> <img src={Krk1} alt="" />{" "}

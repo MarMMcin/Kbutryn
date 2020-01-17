@@ -114,7 +114,7 @@ class Nieruchomosci extends Component {
         {" "}
         <Container>
           <div className="logo">
-            <h1>Geodezja</h1>
+            <h1>GEODEZJA</h1>
           </div>
 
           <TextGeodezja />

@@ -115,7 +115,7 @@ class Nieruchomosci extends Component {
         {" "}
         <Container>
           <div className="logo">
-            <h1>O Firmie</h1>
+            <h1>O FIRMIE</h1>
           </div>
           <TextOFirmie></TextOFirmie>
         </Container>

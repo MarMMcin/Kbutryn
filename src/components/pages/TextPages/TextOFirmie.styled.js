@@ -16,7 +16,7 @@ export const StyledP = styled.div`
     flex-direction: row;
   }
   .container {
-    border-bottom: 1px solid black;
+   
   }
   .container2 {
     display: flex;
@@ -25,7 +25,7 @@ export const StyledP = styled.div`
 
   }
   .tittle {
-    width:
+
     margin-top: 2vh;
     font-size: 2vh;
   }

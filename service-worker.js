@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Kbutryn/precache-manifest.672da1ce2f02c79a79948cfe677943d3.js"
+  "/Kbutryn/precache-manifest.55d26268a0a4e5c223edd7823c751fec.js"
 );
 
 self.addEventListener('message', (event) => {

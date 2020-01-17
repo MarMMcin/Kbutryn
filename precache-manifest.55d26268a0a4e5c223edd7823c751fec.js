@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9397655c25ffb944576f789bf3a3f113",
+    "revision": "f5011ca688c1a03d8a7ecab149316492",
     "url": "/Kbutryn/index.html"
   },
   {
-    "revision": "3b2274cb70421ccf5d31",
+    "revision": "dda83f95e0e90a4c2902",
     "url": "/Kbutryn/static/css/main.0e2013f3.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kbutryn/static/js/2.5cf4c833.chunk.js"
   },
   {
-    "revision": "3b2274cb70421ccf5d31",
-    "url": "/Kbutryn/static/js/main.eec5b477.chunk.js"
+    "revision": "dda83f95e0e90a4c2902",
+    "url": "/Kbutryn/static/js/main.1484b798.chunk.js"
   },
   {
     "revision": "25f2d226f57619e41be3",

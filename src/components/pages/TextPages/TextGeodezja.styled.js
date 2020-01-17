@@ -14,16 +14,16 @@ padding-top: 2vh;
   justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-  font-size: 2vh;
+  font-size: 2.2vh;
   font-weight: 600;
   margin-bottom: 1vh;
 }
-.two {
+.two {  font-size: 2vh;
 border-bottom: 1px solid #ec7801;
 }
 .dots{
   margin-top: 1vh;
-  font-size: 1.4vh;
+  font-size: 2vh;
   position: relative;
   justify-content: center;
 	align-items: center;

@@ -6,7 +6,7 @@ import nieruchomosc from "../../images/inne1.jpg";
 import nieruchomosc2 from "../../images/inne.jpg";
 
 const Container = styled.div`
-
+overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,10 +21,9 @@ const Container = styled.div`
     justify-content: center;
     height: 20vh;
     background-image: url(${nieruchomosc});
-    background-position: center;
     background-size: cover;
-   min-width: 100vh;
     background-attachment: fixed;
+    background-position:center;
 
     z-index: -1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -107,7 +106,6 @@ const Container = styled.div`
 }
   }
 `;
-
 class Pozostale extends Component {
   render() {
     return (

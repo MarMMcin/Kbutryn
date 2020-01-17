@@ -7,7 +7,7 @@ import nieruchomosc2 from "../../images/Krk2.jpg";
 import TextOFirmie from "./TextPages/TextOFirmie";
 
 const Container = styled.div`
-
+overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;

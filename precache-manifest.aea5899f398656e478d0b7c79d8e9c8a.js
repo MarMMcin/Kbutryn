@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5011ca688c1a03d8a7ecab149316492",
+    "revision": "ad5f3840021acdda1f7d77847ac8e1f8",
     "url": "/Kbutryn/index.html"
   },
   {

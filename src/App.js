@@ -5,7 +5,7 @@ import Backdrop from "./components/Backdrop/Backdrop";
 import Page from "./components/layouts/Page";
 import Footer from "./components/layouts/Footer";
 
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -35,14 +35,14 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div style={{ height: "100%" }}>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} /> {backdrop}
         </div>
         {<Page />}
         {/* {<Footer></Footer>} */}
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

@@ -7,7 +7,7 @@ import nieruchomosc2 from "../../images/geodezja2.jpg";
 import TextGeodezja from "./TextPages/TextGeodezja";
 
 const Container = styled.div`
-
+overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;

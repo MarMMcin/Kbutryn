@@ -4,7 +4,7 @@ import Krk1 from "../../images/Krk1.jpg";
 import { Link } from "react-router-dom";
 
 const Container = styled.div`
-overflow: hidden;
+
   position: relative;
   z-index: 1;
   display: flex;  
@@ -99,6 +99,12 @@ overflow: hidden;
   }  .text2{
     font-size: 15px;
   }}
+  @media (max-width: 768px) {
+  overflow: hidden;
+  height: 100vh;
+  }
+
+
  `;
 
 class MainPage extends Component {

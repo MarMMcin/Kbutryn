@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Kbutryn/static/css/main.0e2013f3.chunk.css",
-    "main.js": "/Kbutryn/static/js/main.2c8e61ed.chunk.js",
-    "main.js.map": "/Kbutryn/static/js/main.2c8e61ed.chunk.js.map",
+    "main.css": "/Kbutryn/static/css/main.b779675e.chunk.css",
+    "main.js": "/Kbutryn/static/js/main.c5d7e341.chunk.js",
+    "main.js.map": "/Kbutryn/static/js/main.c5d7e341.chunk.js.map",
     "runtime~main.js": "/Kbutryn/static/js/runtime~main.73831f4a.js",
     "runtime~main.js.map": "/Kbutryn/static/js/runtime~main.73831f4a.js.map",
-    "static/js/2.5cf4c833.chunk.js": "/Kbutryn/static/js/2.5cf4c833.chunk.js",
-    "static/js/2.5cf4c833.chunk.js.map": "/Kbutryn/static/js/2.5cf4c833.chunk.js.map",
+    "static/css/2.9522b9fe.chunk.css": "/Kbutryn/static/css/2.9522b9fe.chunk.css",
+    "static/js/2.77025902.chunk.js": "/Kbutryn/static/js/2.77025902.chunk.js",
+    "static/js/2.77025902.chunk.js.map": "/Kbutryn/static/js/2.77025902.chunk.js.map",
     "index.html": "/Kbutryn/index.html",
-    "precache-manifest.e6f01743dc1cd1c52db177c57d740caf.js": "/Kbutryn/precache-manifest.e6f01743dc1cd1c52db177c57d740caf.js",
+    "precache-manifest.83ad6f6984598e0e645f0f0b5c3cfeba.js": "/Kbutryn/precache-manifest.83ad6f6984598e0e645f0f0b5c3cfeba.js",
     "service-worker.js": "/Kbutryn/service-worker.js",
-    "static/css/main.0e2013f3.chunk.css.map": "/Kbutryn/static/css/main.0e2013f3.chunk.css.map",
+    "static/css/2.9522b9fe.chunk.css.map": "/Kbutryn/static/css/2.9522b9fe.chunk.css.map",
+    "static/css/main.b779675e.chunk.css.map": "/Kbutryn/static/css/main.b779675e.chunk.css.map",
     "static/media/Krk1.jpg": "/Kbutryn/static/media/Krk1.0b30d12b.jpg",
     "static/media/Krk2.jpg": "/Kbutryn/static/media/Krk2.d1cc6797.jpg",
     "static/media/LogoIcon4.png": "/Kbutryn/static/media/LogoIcon4.a4ec57f9.png",
@@ -26,7 +28,6 @@
     "static/media/logo2.png": "/Kbutryn/static/media/logo2.eb9cfbae.png",
     "static/media/nieruch3.jpg": "/Kbutryn/static/media/nieruch3.1fea405c.jpg",
     "static/media/nieruchomosc.jpg": "/Kbutryn/static/media/nieruchomosc.1f0b46e0.jpg",
-    "static/media/nieruchomosc2.jpg": "/Kbutryn/static/media/nieruchomosc2.3764e39b.jpg",
-    "static/media/swiadectwo.jpg": "/Kbutryn/static/media/swiadectwo.9aec15c0.jpg"
+    "static/media/nieruchomosc2.jpg": "/Kbutryn/static/media/nieruchomosc2.3764e39b.jpg"
   }
 }

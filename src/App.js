@@ -3,14 +3,17 @@ import Toolbar from "./components/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer.js";
 import Backdrop from "./components/Backdrop/Backdrop";
 import Page from "./components/layouts/Page";
-import Footer from "./components/layouts/Footer";
 
 import { HashRouter } from "react-router-dom";
 
 import styled from "styled-components";
 
 const StyledPage = styled.div`
-  overflow: hidden !important;
+  height: 10vh;
+
+  @media (max-width: 768px) {
+    height: 0vh;
+  }
 `;
 
 class App extends Component {
@@ -36,10 +39,12 @@ class App extends Component {
     }
     return (
       <HashRouter>
-        <div style={{ height: "100%" }}>
-          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-          <SideDrawer show={this.state.sideDrawerOpen} /> {backdrop}
-        </div>
+        <StyledPage>
+          <div style={{ height: "100%" }}>
+            <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+            <SideDrawer show={this.state.sideDrawerOpen} /> {backdrop}
+          </div>
+        </StyledPage>
         {<Page />}
         {/* {<Footer></Footer>} */}
       </HashRouter>

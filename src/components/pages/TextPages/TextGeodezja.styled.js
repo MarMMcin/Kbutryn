@@ -20,7 +20,7 @@ padding-top: 2vh;
   font-weight: 600;
   margin-bottom: 1vh;
 }
-.two {  font-size: 2vh;
+.line {  font-size: 2vh;
 border-bottom: 1px solid #ec7801;
 }
 .dots{
@@ -40,9 +40,10 @@ img
   opacity: 0.1;
 }
   @media (max-width: 768px) {
+
     img {
       margin-top: 2vh;
-      width: 80vw;
+      width: 70vw;
       height: auto;
       padding: 0;
       border-radius: 0px;

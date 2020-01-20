@@ -3,11 +3,11 @@ import { withRouter } from "react-router";
 import { NavLink } from "react-router-dom";
 
 const list = [
-  { name: "Strona główna", path: "/", exact: true },
   { name: "O firmie", path: "/ofirmie", exact: true },
   { name: "Wycena nieruchomości", path: "/wycena" },
   { name: "Geodezja", path: "/geodezja" },
   { name: "Pozostałe usługi", path: "/pozostale" },
+  { name: "Artykuły", path: "/artykuly" },
   { name: "Kontakt", path: "/kontakt" }
 ];
 const Navigation = () => {

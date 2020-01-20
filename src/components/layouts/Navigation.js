@@ -4,13 +4,15 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import LogoImg from "../../images/nieruch3.jpg";
 import MiniLogo from "../../images/LogoIcon4.png";
+import { Link } from "react-router-dom";
 
 const list = [
-  { name: "Strona główna", path: "/", exact: true },
+  { name: "", path: "/", exact: true },
   { name: "O firmie", path: "/ofirmie", exact: true },
   { name: "Wycena nieruchomości", path: "/wycena" },
   { name: "Geodezja", path: "/geodezja" },
   { name: "Pozostałe usługi", path: "/pozostale" },
+  { name: "Artykuły", path: "/artykuly" },
   { name: "Kontakt", path: "/kontakt" }
 ];
 
@@ -18,16 +20,15 @@ const Menu = styled.div`
   height: 10vh;
   display: flex;
   font-size: 2vh;
-  position: relative;
+  position: absolute;
   flex-direction: row;
+  width: 100vw;
   flex-wrap: nowrap;
   justify-content: flex-end;
   overflow: hidden;
 
   nav {
     display: flex;
-    position: relative;
-    justify-content: flex-end;
   }
   img {
     margin-top: 1.5vh;
@@ -67,7 +68,7 @@ const StyledLi = styled.li`
   font-size: 1.5vh;
   opacity: 1;
   padding-top: 5vh;
-  padding-left: 25px;
+  padding-left: 15px;
   list-style-type: none;
   z-index: 200;
   :last-of-type {
@@ -81,6 +82,7 @@ const StyledLi = styled.li`
     font-size: 6px;
   } */
   a {
+    padding: 10px;
     text-decoration: none;
     color: #444;
   }
@@ -110,7 +112,11 @@ const Navigation = () => {
       <Menu>
         {" "}
         <nav>{menu}</nav>
-        <LogoAll> </LogoAll> <img src={MiniLogo} alt="logomini" />
+        <LogoAll> </LogoAll>
+        <Link to="/ofirmie">
+          {" "}
+          <img src={MiniLogo} alt="logomini" />
+        </Link>
       </Menu>
     </>
   );

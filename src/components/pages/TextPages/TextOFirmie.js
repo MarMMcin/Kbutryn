@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 
 import { StyledP } from "./TextOFirmie.styled";
-import swiadectwo from "../../../images/swiadectwo.jpg";
 import logo2 from "../../../images/logo2.png";
 import logo1 from "../../../images/logo1.png";
-
+import Image from "./image";
 class TextOFirmie extends Component {
   render() {
     return (
@@ -45,17 +44,32 @@ class TextOFirmie extends Component {
             </div>
           </div>
           <div className="div6">
-            <img src={swiadectwo} alt="" />
+            <Image></Image>
           </div>
           <div className="container2">
-            <div className="logo1">
+            <a
+              href="https://www.msrm.org.pl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
-              <img src={logo1} alt="" />
-            </div>
-            <div className="logo2">
+              <div className="logo1">
+                {" "}
+                <img src={logo1} alt="" />
+              </div>
+            </a>
+
+            <a
+              href="https://www.msrm.org.pl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
-              <img src={logo2} alt="" />
-            </div>
+              <div className="logo2">
+                {" "}
+                <img src={logo2} alt="" />
+              </div>
+            </a>
           </div>
         </StyledP>
       </>

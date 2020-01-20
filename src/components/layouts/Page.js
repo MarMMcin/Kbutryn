@@ -12,7 +12,6 @@ import MainPage from "../pages/MainPage";
 import styled from "styled-components";
 
 const Div = styled.div`
-  margin-top: 0vh;
   width: 100vw;
 
   z-index: -15;

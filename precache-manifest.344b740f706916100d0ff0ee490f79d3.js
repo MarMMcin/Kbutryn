@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ca876e926ce8d102b3af66ae8dca60d",
+    "revision": "376ad6aeb840e15205d45a69b113a245",
     "url": "/Kbutryn/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kbutryn/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "ae287399bce5b2507244",
+    "revision": "8866b0c6d837e9e51e22",
     "url": "/Kbutryn/static/css/main.343a8092.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kbutryn/static/js/2.d61dad42.chunk.js"
   },
   {
-    "revision": "ae287399bce5b2507244",
-    "url": "/Kbutryn/static/js/main.ca2ea7b4.chunk.js"
+    "revision": "8866b0c6d837e9e51e22",
+    "url": "/Kbutryn/static/js/main.508d482c.chunk.js"
   },
   {
     "revision": "25f2d226f57619e41be3",

@@ -7,7 +7,6 @@ import MiniLogo from "../../images/LogoIcon4.png";
 import { Link } from "react-router-dom";
 
 const list = [
-  { name: "", path: "/", exact: true },
   { name: "O firmie", path: "/ofirmie", exact: true },
   { name: "Wycena nieruchomości", path: "/wycena" },
   { name: "Geodezja", path: "/geodezja" },
@@ -19,7 +18,7 @@ const list = [
 const Menu = styled.div`
   height: 10vh;
   display: flex;
-  font-size: 2vh;
+  font-size: 1rem;
   position: absolute;
   flex-direction: row;
   width: 100vw;
@@ -31,7 +30,7 @@ const Menu = styled.div`
     display: flex;
   }
   img {
-    margin-top: 1.5vh;
+    margin-top: 1vh;
     position: absolute;
     left: 1vw;
     width: auto;
@@ -56,7 +55,7 @@ border-bottom: 1px solid #333;
   
   @media (max-height: 800px) {
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 0.7rem;
   }
   .color {
     color: #ec7801;
@@ -65,7 +64,7 @@ border-bottom: 1px solid #333;
 
 const StyledLi = styled.li`
   text-align: center;
-  font-size: 1.5vh;
+  font-size: 0.8rem;
   opacity: 1;
   padding-top: 5vh;
   padding-left: 15px;
@@ -74,13 +73,7 @@ const StyledLi = styled.li`
   :last-of-type {
     padding-right: 25px;
   }
-  /* @media (max-width: 1440px) {
-    width: 11vw;
-  }
-  @media (max-width: 800px) {
-    width: 15vw;
-    font-size: 6px;
-  } */
+
   a {
     padding: 10px;
     text-decoration: none;

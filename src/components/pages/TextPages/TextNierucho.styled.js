@@ -20,11 +20,11 @@ export const StyledP = styled.span`
   .container {
     width: 30vw;
     padding-top: 40px;
-    font-size: 11px;
+    font-size: 0.7rem;
     padding-top: 20px;
   }
   .tittle {
-    font-size: 1.4vh;
+    font-size: 1rem;
     padding-bottom: 20px;
     text-align: justify;
   }
@@ -46,12 +46,18 @@ export const StyledP = styled.span`
     margin: 5px;
   }
   @media (max-width: 768px) {
+    padding-left: 10vw;
+    padding-right: 10vw;
     .info {
       padding-left: 0vw;
       padding-right: 0vw;
     }
+    .tittle {
+      font-size: 0.7rem;
+    }
     .container {
       width: 50vw;
+      font-size: 0.7rem;
     }
     .dots {
       padding-bottom: 20px;

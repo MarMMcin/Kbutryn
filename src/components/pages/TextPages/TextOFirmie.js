@@ -30,10 +30,8 @@ class TextOFirmie extends Component {
               Górniczej i&nbsp;Inżynierii Środowiska AGH w&nbsp;Krakowie. Autor
               lub współautor kilkunastu publikacji naukowych. Wykładowca na
               Studiach Podyplomowych w&nbsp;zakresie Szacowania Nieruchomości na{" "}
-              <p>
-                Wydziale Geodezji Górniczej i&nbsp;Inżynierii Środowiska AGH w
-                Krakowie.
-              </p>
+              Wydziale Geodezji Górniczej i&nbsp;Inżynierii Środowiska AGH
+              w&nbsp;Krakowie.
             </div>
             <div className="text2">
               Z&nbsp;wyceną nieruchomości związany nieprzerwanie od 2014 roku.
@@ -59,11 +57,7 @@ class TextOFirmie extends Component {
               </div>
             </a>
 
-            <a
-              href="https://www.msrm.org.pl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="http://mrn.pl" target="_blank" rel="noopener noreferrer">
               {" "}
               <div className="logo2">
                 {" "}

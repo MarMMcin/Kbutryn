@@ -37,21 +37,6 @@ class TextNierucho extends Component {
                   użytkowej
                 </p>{" "}
                 <br></br>
-                <span className="buttonheader">
-                  Więcej na temat problematyki powierzchni użytkowej budynków i
-                  lokali:
-                  {/* <div class="buttons">
-                    <button class="btn btn1">
-                      Artykuł-
-                      <i class="fas fa-paperclip"></i>
-                    </button>
-                    <p className="buttontext"></p>
-                    <button class="btn btn2">
-                      <i class="fas fa-paperclip"></i>
-                    </button>{" "}
-                    <p className="buttontext"></p>
-                  </div> */}
-                </span>
               </ul>{" "}
             </div>
 
@@ -97,7 +82,7 @@ class TextNierucho extends Component {
                 rzetelnąprofesjonalną wycenę nieruchomości.
               </p>{" "}
               <Link to="/Kontakt">
-                <button className="btn btn1">
+                <button className="btn1">
                   Zachęcamy do kontaktu drogą telefoniczną lub mailową celem
                   uzyskania szczegółowych informacji oraz bezpłatnej wyceny
                   kosztów zlecenia.

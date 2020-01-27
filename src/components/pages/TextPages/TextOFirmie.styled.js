@@ -27,14 +27,14 @@ export const StyledP = styled.div`
   .tittle {
 
     margin-top: 2vh;
-    font-size: 2vh;
+    font-size: 1rem;
   }
 
   .about,
   .text1,
   .text2 {
     margin: 2vh auto;
-    font-size: 1.7vh;
+    font-size: 1rem;
   }
 
   .about p {
@@ -63,10 +63,12 @@ background-color: transparent;
     cursor: pointer;
   }
   .logo1,.logo2 {
-    transition: All 0.2s ease-in-out;
+    transition:  all 0.3s ease-out;
+    animation-name: example;
+  animation-duration: 1s;
   }
   .logo1 img {
-    height: 8vh;
+    height: 7vh;
     width: auto;
     outline: none;
     justify-content: flex-start;
@@ -75,20 +77,26 @@ background-color: transparent;
     position: relative;
     top: -10px;
     outline: none;
-    height: 10vh;
+    height: 9vh;
     width: auto;
     justify-content: flex-end;
   }
 
-  .logo1 span,
-  .logo2 span {
-    font-size: 1vh;
-  
-  }
+
   .logo1:hover,.logo2:hover {
     transform: scale(1.2);
   }
-  
+  @keyframes example {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
 
 
   @media (max-width: 768px) {
@@ -107,5 +115,10 @@ background-color: transparent;
   .container{
     border-bottom: none;
   
+
   }
+  .about,
+  .text1,
+  .text2,.tittle {
+    font-size: 0.7rem}
 `;

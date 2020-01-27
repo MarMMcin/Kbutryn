@@ -9,6 +9,7 @@ import Geodezja from "../pages/Geodezja";
 import ErrorPage from "../pages/ErrorPage";
 import Contact from "../pages/Contact";
 import MainPage from "../pages/MainPage";
+import Artykuly from "../pages/Artykuly";
 import styled from "styled-components";
 
 const Div = styled.div`
@@ -26,6 +27,7 @@ const Page = () => {
           <Route path="/wycena" component={Nieruchomosci} />
           <Route path="/geodezja" component={Geodezja} />{" "}
           <Route path="/pozostale" component={Pozostale} />
+          <Route path="/artykuly" component={Artykuly} />
           <Route path="/kontakt" component={Contact} />
           <Route component={ErrorPage} />
         </Switch>

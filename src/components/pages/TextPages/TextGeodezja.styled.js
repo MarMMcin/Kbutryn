@@ -16,16 +16,16 @@ padding-top: 2vh;
   justify-content: flex-start;
 	align-items: flex-start;
 	align-content: flex-start;
-  font-size: 2.2vh;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 1vh;
 }
-.line {  font-size: 2vh;
+.line {  font-size: 0.9rem;
 border-bottom: 1px solid #ec7801;
 }
 .dots{
   margin-top: 1vh;
-  font-size: 2vh;
+  font-size: 0.8rem;
   position: relative;
   justify-content: center;
 	align-items: center;
@@ -47,5 +47,12 @@ img
       height: auto;
       padding: 0;
       border-radius: 0px;
+    }
+    .tittle p{
+      font-size: 0.8rem;
+    }
+   .line,.dots {
+      font-size: 0.7rem
+    }
 
 `;

@@ -4,25 +4,25 @@ import { Container, StyledH1, Photos } from "./Styled/Main.styled";
 
 import kontakt1 from "../../images/kontakt1.jpg";
 import kontakt2 from "../../images/kontakt2.jpg";
-import TextContact from "./TextPages/TextContact";
+import TextArtykuly from "./TextPages/TextArtykuly";
 
-class Contact extends Component {
+class Artykuly extends Component {
   render() {
     return (
       <>
         {" "}
         <Container>
           <Photos>
-            <img className="top" src={kontakt1} alt="kontakt1" />
-            <img className="bottom" src={kontakt2} alt="kontakt2" />
-            <StyledH1>KONTAKT</StyledH1>
+            <img className="top" src={kontakt1} alt="kontakt3" />
+            <img className="bottom" src={kontakt2} alt="kontakt4" />
+            <StyledH1>ARTYKULY</StyledH1>
           </Photos>
 
-          <TextContact />
+          <TextArtykuly />
         </Container>
       </>
     );
   }
 }
 
-export default Contact;
+export default Artykuly;

@@ -18,7 +18,7 @@ export const StyledP = styled.span`
   }
   h2,
   h3 {
-    font-size: 2vh;
+    font-size: 1rem;
     margin-top: 1vh;
     margin-bottom: 1vh;
     padding-left: 0;
@@ -40,7 +40,7 @@ export const StyledP = styled.span`
     grid-area: 2 / 1 / 3 / 3;
     padding-left: 15vw;
     padding-right: 15vw;
-    font-size: 2vh;
+    font-size: 1rem;
   }
   .contactext {
     font-weight: 600;
@@ -51,38 +51,33 @@ export const StyledP = styled.span`
     padding-top: 20px;
     text-align: justify;
   }
+
   .info,
   .line {
-    font-size: 1.8vh;
+    font-size: 0.9rem;
   }
   .dots {
-    font-size: 1.6vh;
+    font-size: 0.8rem;
   }
-  .btn {
+  .btn1 {
     outline: none;
     border: 1px solid #ec7801;
     background: none;
     padding: 2px 3px;
-    font-size: 16px;
-    font-size: 2vh;
+    font-size: 1rem;
     cursor: pointer;
     margin: 10px;
     transition: 0.8s;
     position: relative;
     overflow: hidden;
-  }
-  .btn1,
-  .btn2 {
-    font-size: 2vh;
     color: #ec7801;
   }
 
-  .btn1:hover,
-  .btn2:hover {
+  .btn1:hover {
     color: #fff;
   }
 
-  .btn::before {
+  .btn1::before {
     content: "";
     position: absolute;
     left: 0;
@@ -101,17 +96,6 @@ export const StyledP = styled.span`
     height: 180%;
   }
 
-  i {
-    font-weight: 600;
-  }
-  .buttontext {
-    font-weight: 600;
-    position: relative;
-  }
-  .buttonheader {
-    font-weight: 9px;
-    position: relative;
-  }
   .undertext {
     margin-top: 2vh;
     margin-bottom: 1vh;
@@ -130,7 +114,19 @@ export const StyledP = styled.span`
       padding-right: 0;
     }
     .div2 {
-      margin-top: 40px;
+      margin-top: 0;
+    }
+
+    .line {
+      font-size: 0.6rem;
+    }
+    .info,
+    .dots,
+    .btn1,
+    h2,
+    h3,
+    .div3 {
+      font-size: 0.7rem;
     }
   }
 `;

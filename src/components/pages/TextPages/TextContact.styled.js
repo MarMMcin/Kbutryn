@@ -9,24 +9,25 @@ export const StyledP = styled.span`
     grid-row-gap: 0px;
   }
 
-  .div2,
-  .div3,
-  .div4 {
+  a {
+    text-decoration: none;
+    color: black;
+  }
     i {
-      font-size: 4vh;
+      font-size: 3rem;
       color: #ec7801;
       padding-bottom: 1vh;
       transition: All 0.2s ease-in-out;
       cursor: pointer;
     }
-    font-size: 2vh;
+ 
 
     i:hover {
       transform: scale(1.8);
     }
   }
   div p {
-    font-size: 1.4vh;
+    font-size: 0.8rem
   }
   .div1 {
     padding-top: 3vh;
@@ -34,7 +35,7 @@ export const StyledP = styled.span`
     text-align: center;
 
     p {
-      font-size: 1.8vh;
+      font-size:1rem;
       font-weight: 600;
     }
   }
@@ -55,7 +56,7 @@ export const StyledP = styled.span`
   }
   .div5 {
     padding-top: 2vh;
-    font-size: 1.8vh;
+    font-size: 1rem;
     text-align: center;
     grid-area: 3 / 1 / 4 / 4;
     padding-left: 25vw;

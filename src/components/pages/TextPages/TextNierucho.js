@@ -17,16 +17,15 @@ class TextNierucho extends Component {
               Wykonywane przez nas wyceny nieruchomości spełniają wszelkie
               wymogi stawiane przez obowiązujące przepisy prawa, a także
               formalne, wynikające z dobrej praktyki i&nbsp;standardów
-              zawodowych.
+              zawodowych.Nasze opracowania charakteryzują się również estetyką
+              i&nbsp;przejrzystością.
             </p>
             <p className="tittle">
-              Nasze opracowania charakteryzują się również dużą estetyką
-              i&nbsp;przejrzystością. Nasze opracowania każdorazowo poprzedzone
-              są wnikliwą analizą finansowo-ekonomiczną i&nbsp;prawną przedmiotu
-              wyceny, bieżącą analizą rynku, wizją lokalną, oceną stanu
-              techniczno-użytkowego obiektu wycenianego, szczegółową
-              dokumentacją fotograficzną oraz, w razie potrzeby, niezbędnymi
-              pomiarami inwentaryzacyjnymi.
+              Nasze wyceny każdorazowo poprzedzone są wnikliwą analizą
+              finansowo-ekonomiczną i&nbsp;prawną przedmiotu wyceny, bieżącą
+              analizą rynku, wizją lokalną, oceną stanu techniczno-użytkowego
+              obiektu wycenianego, szczegółową dokumentacją fotograficzną oraz,
+              w razie potrzeby, niezbędnymi pomiarami inwentaryzacyjnymi.
             </p>{" "}
           </span>
           <div className="kropki">

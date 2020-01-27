@@ -20,7 +20,7 @@ class TextNierucho extends Component {
                   lokalowych. Jednocześnie obowiązujące uregulowania prawne
                   dotyczące rejestrowania powierzchni użytkowej pozostają
                   niespójne i&nbsp;nieprecyzyjne, a ich interpretacja –
-                  kłopotliwa*.
+                  kłopotliwa.
                 </p>
                 <br></br>
               </span>
@@ -30,13 +30,7 @@ class TextNierucho extends Component {
                   • wykonanie obmiaru powierzchni użytkowej budynku/lokalu
                   zgodnie z&nbsp;odpowiednią Normą
                 </p>{" "}
-                <p>• sporządzenie dokumentacji inwentaryzacyjnej</p>{" "}
-                <p>
-                  • konsultacje w zakresie obmiaru powierzchni użytkowej oraz
-                  kwalifikacji poszczególnych pomieszczeń do powierzchni
-                  użytkowej
-                </p>{" "}
-                <br></br>
+                <p>• sporządzenie dokumentacji inwentaryzacyjnej</p> <br></br>
               </ul>{" "}
             </div>
 
@@ -79,7 +73,7 @@ class TextNierucho extends Component {
                 Nasza firma oferuje Państwu usługi z&nbsp;zakresu kompleksowej
                 oceny nieruchomości oraz wskazania obszarów ryzyk związanych
                 z&nbsp;i&nbsp;nieruchomością, a&nbsp;w&nbsp;szczególności
-                rzetelnąprofesjonalną wycenę nieruchomości.
+                rzetelną i profesjonalną wycenę nieruchomości.
               </p>{" "}
               <Link to="/Kontakt">
                 <button className="btn1">

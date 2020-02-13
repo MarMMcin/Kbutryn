@@ -1,7 +1,4 @@
 import styled from "styled-components";
-
-import icon from "../../../images/urban.svg";
-import bg from "./bg.jpg";
 export const StyledP = styled.span`
   display: flex;
   .container {
@@ -15,9 +12,12 @@ export const StyledP = styled.span`
   }
   .tittle,
   .tittle a {
+    padding: 10px;
     margin-top: 2vh;
     font-weight: 600;
+    font-size: 18px;
     color: inherit;
+    text-align: center;
     text-decoration: none;
   }
   .content {
@@ -35,7 +35,6 @@ export const StyledP = styled.span`
     flex-direction: row;
     margin: 20px;
     border: 1px solid black;
-    cursor: pointer;
   }
   .text {
     padding: 20px;
@@ -44,6 +43,7 @@ export const StyledP = styled.span`
   .authors {
     padding-top: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
     font-weight: 600;
   }
@@ -91,6 +91,9 @@ export const StyledP = styled.span`
       margin: 0px;
     }
     .text {
+      font-size: 12px;
+    }
+    .authors {
       font-size: 12px;
     }
   }

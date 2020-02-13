@@ -1,10 +1,9 @@
 import React from "react";
 import { withRouter } from "react-router";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
 import LogoImg from "../../images/nieruch3.jpg";
 import MiniLogo from "../../images/LogoIcon4.png";
-import { Link } from "react-router-dom";
 
 const list = [
   { name: "O firmie", path: "/ofirmie", exact: true },

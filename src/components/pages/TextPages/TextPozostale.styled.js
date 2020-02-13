@@ -7,7 +7,9 @@ export const StyledP = styled.span`
 
   padding-left: 8vw;
   padding-right: 8vw;
-
+  ul {
+    list-style-position: inside;
+  }
   .container {
     margin: 2vh;
     display: grid;
@@ -18,7 +20,7 @@ export const StyledP = styled.span`
   }
   h2,
   h3 {
-    font-size: 1rem;
+    font-size: 18px;
     margin-top: 1vh;
     margin-bottom: 1vh;
     padding-left: 0;
@@ -40,7 +42,7 @@ export const StyledP = styled.span`
     grid-area: 2 / 1 / 3 / 3;
     padding-left: 15vw;
     padding-right: 15vw;
-    font-size: 1rem;
+    font-size: 16px;
   }
   .contactext {
     font-weight: 600;
@@ -54,10 +56,10 @@ export const StyledP = styled.span`
 
   .info,
   .line {
-    font-size: 0.9rem;
+    font-size: 16px;
   }
   .dots {
-    font-size: 0.8rem;
+    font-size: 14px;
   }
   .btn1 {
     outline: none;
@@ -99,6 +101,15 @@ export const StyledP = styled.span`
   .undertext {
     margin-top: 2vh;
     margin-bottom: 1vh;
+  }
+  li::before {
+    font-weight: 700;
+    content: "• ";
+    color: #ec7801;
+  }
+  ul li {
+    list-style: none;
+    margin: 5px;
   }
   @media (max-width: 768px) {
     .container {

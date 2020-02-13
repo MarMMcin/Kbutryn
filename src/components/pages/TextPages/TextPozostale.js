@@ -18,19 +18,18 @@ class TextNierucho extends Component {
                   też najczęściej stosowanym przelicznikiem wartości
                   nieruchomości gruntowych zabudowanych oraz nieruchomości
                   lokalowych. Jednocześnie obowiązujące uregulowania prawne
-                  dotyczące rejestrowania powierzchni użytkowej pozostają
-                  niespójne i&nbsp;nieprecyzyjne, a ich interpretacja –
-                  kłopotliwa.
+                  dotyczące powierzchni użytkowej pozostają niespójne
+                  i&nbsp;nieprecyzyjne, a ich interpretacja – kłopotliwa.
                 </p>
                 <br></br>
               </span>
               <span className="line">Nasza firma oferuje Państwu m.in.:</span>{" "}
               <ul className="dots">
-                <p>
-                  • wykonanie obmiaru powierzchni użytkowej budynku/lokalu
-                  zgodnie z&nbsp;odpowiednią Normą
-                </p>{" "}
-                <p>• sporządzenie dokumentacji inwentaryzacyjnej</p> <br></br>
+                <li>
+                  wykonanie obmiaru powierzchni użytkowej budynku/lokalu zgodnie
+                  z&nbsp;odpowiednią Normą
+                </li>{" "}
+                <li>sporządzenie dokumentacji inwentaryzacyjnej</li> <br></br>
               </ul>{" "}
             </div>
 
@@ -43,37 +42,37 @@ class TextNierucho extends Component {
                   najważniejszych decyzji w życiu, a na pewno jest decyzją o
                   bardzo poważnych konsekwencjach finansowych. Dlatego też
                   proces kupna warto poprzedzić szczegółową analizą
-                  przedmiotowej nieruchomości, która może (w zależności od
+                  przedmiotowej nieruchomości, która może (w&nbsp;zależności od
                   rodzaju nieruchomości) obejmować m.in.:
                 </p>
                 <br></br>
               </span>
               <ul className="dots">
                 {" "}
-                <p> • badanie stanu prawnego nieruchomości </p>
-                <p>
-                  • analizę nieruchomości w aspekcie wskazania ewentualnych wad
+                <li> badanie stanu prawnego nieruchomości </li>
+                <li>
+                  analizę nieruchomości w aspekcie wskazania ewentualnych wad
                   prawnych{" "}
-                </p>
-                <p> • weryfikację stanu techniczno-użytkowego nieruchomości </p>
-                <p> • analizę uwarunkowań planistycznych </p>
-                <p>
-                  • weryfikację wydanej dla przedmiotowej nieruchomości
+                </li>
+                <li> weryfikację stanu techniczno-użytkowego nieruchomości </li>
+                <li> analizę uwarunkowań planistycznych </li>
+                <li>
+                  weryfikację wydanej dla przedmiotowej nieruchomości
                   dokumentacji (różnego typu){" "}
-                </p>
-                <p>
-                  • inwentaryzację nieruchomości oraz obmiar powierzchni
-                  użytkowej budynku/lokalu{" "}
-                </p>
-                <p>• analizę lokalnego rynku nieruchomości podobnych</p>
+                </li>
+                <li>
+                  inwentaryzację nieruchomości oraz obmiar powierzchni użytkowej
+                  budynku/lokalu{" "}
+                </li>
+                <li> analizę lokalnego rynku nieruchomości podobnych</li>
               </ul>
             </div>
             <div className="div3">
               <p className="undertext">
                 Nasza firma oferuje Państwu usługi z&nbsp;zakresu kompleksowej
                 oceny nieruchomości oraz wskazania obszarów ryzyk związanych
-                z&nbsp;i&nbsp;nieruchomością, a&nbsp;w&nbsp;szczególności
-                rzetelną i profesjonalną wycenę nieruchomości.
+                z&nbsp;nieruchomością, a&nbsp;w&nbsp;szczególności rzetelną i
+                profesjonalną wycenę nieruchomości.
               </p>{" "}
               <Link to="/Kontakt">
                 <button className="btn1">

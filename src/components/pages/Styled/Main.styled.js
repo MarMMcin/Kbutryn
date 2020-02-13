@@ -71,8 +71,11 @@ position: relative;
 z-index: 1;
 display: flex;  
 height: 90vh;
-.link{
-
+.content {
+position: absolute;
+z-index: -2000;
+background-color: black;
+color: black;
 }
 .bg {
   background: rgba(0, 0, 0, 0.7);

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Form from "./ContactForm";
 import { StyledP } from "./TextContact.styled";
 
 class TextContact extends Component {
@@ -21,8 +21,8 @@ class TextContact extends Component {
                 {" "}
                 <i className="fas fa-home"></i>
                 <p>ul. Na Barciach 14</p>
-                <p> 31-423 Kraków</p> <p>REGON: 302618717</p>
-                <p>NIP: 6681930127</p>
+                <p> 31-423 Kraków</p> <p>REGON: 385438011</p>
+                <p>NIP: 9452233718</p>
               </a>
             </div>
             <div className="div3">
@@ -59,32 +59,7 @@ class TextContact extends Component {
               </p>
             </div>
           </div>{" "}
-          <div className="contact-section">
-            <h1>Napisz do nas</h1>
-            <div className="border"></div>
-            <form className="contact-form" action="/#/kontakt">
-              <input
-                type="text"
-                className="contact-form-text"
-                placeholder="Twoje imię"
-              />
-              <input
-                type="email"
-                className="contact-form-text"
-                placeholder="Twoj e-mail"
-              />
-              <input
-                type="text"
-                className="contact-form-text"
-                placeholder="Twój telefon"
-              />
-              <textarea
-                className="contact-form-text"
-                placeholder="Twoja wiadomość"
-              ></textarea>
-              <input type="submit" className="contact-form-btn" value="Send" />
-            </form>
-          </div>
+          <Form></Form>
         </StyledP>
       </>
     );

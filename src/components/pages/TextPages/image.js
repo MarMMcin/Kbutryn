@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css"; // This only needs to be imported once in your app
+import "react-image-lightbox/style.css";
+import dyplom from "./../../../images/swiadectwo.jpg";
 
-const images = ["https://i.imgur.com/BsD2yxp.jpg"];
+const images = [dyplom];
 
 export default class LightboxExample extends Component {
   constructor(props) {
@@ -20,7 +21,7 @@ export default class LightboxExample extends Component {
     return (
       <div>
         <img
-          src="https://i.imgur.com/BsD2yxp.jpg"
+          src={dyplom}
           type="button"
           onClick={() => this.setState({ isOpen: true })}
           alt="dyplom"

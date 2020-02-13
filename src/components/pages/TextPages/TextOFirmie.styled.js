@@ -1,40 +1,38 @@
 import styled from "styled-components";
 export const StyledP = styled.div`
   padding: 2vh 20vw;
-  padding-right: 10vw;
-  padding-left: 30vw;
+  color: #444;
   text-align: justify;
   white-space: pre-line;
+display: flex;
+  flex-direction: row;
 
-  flex-direction: column;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 0.2fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+
   .top {
     flex-direction: row;
   }
-  .container {
-   
-  }
+
   .container2 {
+    position: relative;
     display: flex;
     flex-direction: row;
+
+    height: 8vh;
+
 
 
   }
   .tittle {
 
     margin-top: 2vh;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .about,
   .text1,
   .text2 {
     margin: 2vh auto;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .about p {
@@ -44,7 +42,8 @@ export const StyledP = styled.div`
   img {
     width: 20vw;
     height: auto;
-    padding: 2vh 2vw;
+    padding: 20px;
+    margin-left: 2vw;
   }
   .div6{
     position: relative;
@@ -63,48 +62,51 @@ background-color: transparent;
     cursor: pointer;
   }
   .logo1,.logo2 {
-    transition:  all 0.3s ease-out;
-    animation-name: example;
-  animation-duration: 1s;
+    transition:  all 0.3s;
+   
   }
   .logo1 img {
-    height: 7vh;
+    position: relative;
+    right: 3vw;
+    height: 7vh;  
     width: auto;
-    outline: none;
-    justify-content: flex-start;
+    outline: none; top: 1vh;
+
   }
   .logo2 img {
     position: relative;
-    top: -10px;
+    right: 2vw;
+
     outline: none;
-    height: 9vh;
-    width: auto;
-    justify-content: flex-end;
+    height: 9vh;  width: auto;
+   
   }
 
 
   .logo1:hover,.logo2:hover {
-    transform: scale(1.2);
+
+    transform: scale(1.1);  
   }
-  @keyframes example {
-    0% {
-        transform: scale(1,1);
-    }
-    50% {
-        transform: scale(1.2,1.2);
-    }
-    100% {
-        transform: scale(1,1);
-    }
-}
 
-
-  @media (max-width: 768px) {
+@media (max-width: 1440px) 
+  {  
+    
+    padding: 2vh 15vw;
+    img {
+      width: 35vw;
+    }
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
     padding-right: 10vw;
   padding-left: 10vw;
-    display: flex;
+
+  .logo1 img,.logo2 img {
+    height: 10vh;
+  }
  
   .div6 img {
+    padding: 2vh 2vw;
     width: 80vw;   
     margin-right: 50vw; 
     justify-content: center;
@@ -120,5 +122,5 @@ background-color: transparent;
   .about,
   .text1,
   .text2,.tittle {
-    font-size: 0.7rem}
+    font-size: 12px}
 `;

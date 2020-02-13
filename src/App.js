@@ -3,8 +3,7 @@ import Toolbar from "./components/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer.js";
 import Backdrop from "./components/Backdrop/Backdrop";
 import Page from "./components/layouts/Page";
-
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import styled from "styled-components";
 
@@ -38,7 +37,7 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <HashRouter>
+      <BrowserRouter>
         <StyledPage>
           <div style={{ height: "100%" }}>
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
@@ -47,7 +46,7 @@ class App extends Component {
         </StyledPage>
         {<Page />}
         {/* {<Footer></Footer>} */}
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

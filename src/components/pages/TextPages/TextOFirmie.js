@@ -39,31 +39,34 @@ class TextOFirmie extends Component {
               sądowego z&nbsp;zakresu szacowania nieruchomości brał w&nbsp;tym
               czasie czynny udział przy realizacji ponad 1 000 opracowań
               z&nbsp;zakresu wyceny nieruchomości.
+              {/* <div className="container2">
+                <a
+                  href="https://www.msrm.org.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <div className="logo1">
+                    {" "}
+                    <img src={logo1} alt="" />
+                  </div>
+                </a>
+                <a
+                  href="http://mrn.pl"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <div className="logo2">
+                    {" "}
+                    <img src={logo2} alt="" />
+                  </div>
+                </a>
+              </div> */}
             </div>
-          </div>
+          </div>{" "}
           <div className="div6">
             <Image></Image>
-          </div>
-          <div className="container2">
-            <a
-              href="https://www.msrm.org.pl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <div className="logo1">
-                {" "}
-                <img src={logo1} alt="" />
-              </div>
-            </a>
-
-            <a href="http://mrn.pl" target="_blank" rel="noopener noreferrer">
-              {" "}
-              <div className="logo2">
-                {" "}
-                <img src={logo2} alt="" />
-              </div>
-            </a>
           </div>
         </StyledP>
       </>

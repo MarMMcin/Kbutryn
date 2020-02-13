@@ -8,7 +8,9 @@ class ArtComponent extends Component {
     return articles.articles.map(article => (
       <nav className="mainDiv" key={shortid.generate()}>
         <div className="div1">
-          <img src={article.photo} alt="" className="photo" />
+          <a target="_blank" rel="noopener noreferrer" href={article.pdf}>
+            <img src={article.photo} alt="" className="photo" />{" "}
+          </a>
           <img src={article.language} alt="" className="flag" />
 
           <p className="text">{article.tittle} </p>

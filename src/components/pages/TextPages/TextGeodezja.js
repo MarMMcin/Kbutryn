@@ -20,24 +20,26 @@ class TextContact extends Component {
             </span>{" "}
           </p>{" "}
           <div className="dots">
-            <p>• mapy do celów projektowych</p>{" "}
-            <p>
-              • tyczenia budynku, budowli lub elementów sieci uzbrojenia terenu{" "}
-            </p>
-            <p>
-              • inwentaryzacje powykonawcze budynku, budowli lub uzbrojenia
-              terenu
-            </p>{" "}
-            <p>• wyznaczenie lub wznowienie punktów granicznych</p>{" "}
-            <p>• podział nieruchomości (działki)</p>
-            <p>
-              {" "}
-              • inwentaryzacje architektoniczno-budowlane oraz inne pomiary
-              inwentaryzacyjne
-            </p>
-            <p> • mapy co celów prawnych</p>
-            <p> • wykazy synchronizacyjne i badanie ksiąg wieczystych</p>
-            <p> • projekty służebności gruntowych</p>
+            <ul className="kropki">
+              <li>mapy do celów projektowych</li>{" "}
+              <li>
+                tyczenia budynku, budowli lub elementów sieci uzbrojenia terenu
+              </li>
+              <li>
+                inwentaryzacje powykonawcze budynku, budowli lub uzbrojenia
+                terenu
+              </li>
+              <li>wyznaczenie lub wznowienie punktów granicznych</li>{" "}
+              <li>• podział nieruchomości (działki)</li>{" "}
+              <li>
+                {" "}
+                inwentaryzacje architektoniczno-budowlane oraz inne pomiary
+                inwentaryzacyjne
+              </li>{" "}
+              <li>mapy co celów prawnych</li>{" "}
+              <li> wykazy synchronizacyjne i badanie ksiąg wieczystych </li>{" "}
+              <li>projekty służebności gruntowych</li>
+            </ul>
           </div>
           <div>
             <img src={Geodezja3} alt="" />

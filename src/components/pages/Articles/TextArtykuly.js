@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 
-import { StyledP } from "./TextArtykuly.styled";
+import { Wrapper, Container } from "./TextArtykuly.styled";
 import ArtComponent from "./ArtComponent";
-class TextContact extends Component {
+class ContactText extends Component {
   render() {
     return (
       <>
-        <StyledP>
+        <Wrapper>
           {" "}
-          <div className="container">
+          <Container>
             <div className="tittle">
               <a
                 key="agh"
@@ -22,11 +22,11 @@ class TextContact extends Component {
               {" "}
               <ArtComponent></ArtComponent>
             </div>
-          </div>
-        </StyledP>
+          </Container>
+        </Wrapper>
       </>
     );
   }
 }
 
-export default TextContact;
+export default ContactText;

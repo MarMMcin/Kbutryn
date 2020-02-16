@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import { StyledP } from "./TextGeodezja.styled";
 import Geodezja3 from "../../../images/geodezja3.png";
-class TextContact extends Component {
+class ContactText extends Component {
   render() {
     return (
       <>
@@ -50,4 +50,4 @@ class TextContact extends Component {
   }
 }
 
-export default TextContact;
+export default ContactText;

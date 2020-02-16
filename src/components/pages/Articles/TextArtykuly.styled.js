@@ -1,23 +1,20 @@
 import styled from "styled-components";
-export const StyledP = styled.span`
+export const Container = styled.div``;
+export const Wrapper = styled.span`
   display: flex;
-  .container {
+
+  .tittle,
+  .tittle a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-left: 15vw;
-    padding-right: 15vw;
-  }
-  .tittle,
-  .tittle a {
-    padding: 10px;
-    margin-top: 2vh;
+    padding: 0 15vw 0 15vw;
+    margin: 1vh 0 1vh 0;
     font-weight: 600;
     font-size: 18px;
     color: inherit;
-    text-align: center;
     text-decoration: none;
   }
   .content {

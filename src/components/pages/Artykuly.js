@@ -4,7 +4,7 @@ import { Container, StyledH1, Photos } from "./Styled/Main.styled";
 
 import kontakt1 from "../../images/artykulBaner.jpg";
 import kontakt2 from "../../images/artykulBaner1.jpg";
-import TextArtykuly from "./TextPages/TextArtykuly";
+import TextArtykuly from "./Articles/TextArtykuly";
 
 class Artykuly extends Component {
   render() {

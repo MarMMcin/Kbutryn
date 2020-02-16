@@ -4,7 +4,7 @@ import { Container, StyledH1, Photos } from "./Styled/Main.styled";
 
 import kontakt1 from "../../images/kontakt1.jpg";
 import kontakt2 from "../../images/kontakt2.jpg";
-import TextContact from "./TextPages/TextContact";
+import TextContact from "./Form/ContactText";
 
 class Contact extends Component {
   render() {

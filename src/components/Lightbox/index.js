@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import dyplom from "./../../../images/swiadectwo.jpg";
+import dyplom from "./../../images/swiadectwo.jpg";
 
 const images = [dyplom];
 

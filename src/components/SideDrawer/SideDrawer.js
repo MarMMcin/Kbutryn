@@ -1,5 +1,5 @@
 import React from "react";
-import BurgerNavigation from "../Navigation/BurgerNavigation/NavigationBurger";
+import BurgerNavigation from "../Navigation/BurgerNavigation";
 import styled from "styled-components";
 
 const Container = styled.div`

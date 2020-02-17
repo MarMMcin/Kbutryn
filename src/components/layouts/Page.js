@@ -12,7 +12,7 @@ import MainPage from "../pages/MainPage";
 import Artykuly from "../pages/Artykuly";
 import styled from "styled-components";
 
-const Div = styled.div`
+const Wrapper = styled.div`
   width: 100vw;
 
   z-index: -15;
@@ -20,7 +20,7 @@ const Div = styled.div`
 const Page = () => {
   return (
     <>
-      <Div>
+      <Wrapper>
         <Switch>
           <Route path="/" exact component={MainPage} />
           <Route path="/ofirmie" exact component={OFirmie} />
@@ -31,7 +31,7 @@ const Page = () => {
           <Route path="/kontakt" component={Contact} />
           <Route component={ErrorPage} />
         </Switch>
-      </Div>
+      </Wrapper>
     </>
   );
 };

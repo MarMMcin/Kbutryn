@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, StyledH1, Photos } from "./Styled/Main.styled";
 import geodezja from "../../images/geodezja.jpg";
 import geodezja2 from "../../images/geodezja2.jpg";
-import TextGeodezja from "./TextPages/TextGeodezja";
+import TextGeodezja from "../Geodezja/";
 
 class Geodezja extends Component {
   render() {

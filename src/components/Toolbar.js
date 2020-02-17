@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router";
 import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
-import Navigation from "../components/Navigation/Navigation/Navigation";
+import Navigation from "./Navigation//Navigation/";
 import styled from "styled-components";
 
 const Container = styled.div`

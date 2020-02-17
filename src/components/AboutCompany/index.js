@@ -6,9 +6,9 @@ import {
   TextInContainer,
   BoldText,
   ImageContainer
-} from "./styled";
-import styled from "styled-components";
-import Image from "../pages/TextPages/image";
+} from "./styles";
+
+import Image from "../Lightbox";
 
 class TextOFirmie extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React from "react";
-import Nav2 from "../layouts/NavigationBurger";
+import BurgerNavigation from "../Navigation/BurgerNavigation/NavigationBurger";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -59,7 +59,7 @@ const sideDrawer = props => {
     <Container>
       <nav className={drawerClasses.join("")}>
         <ul>
-          <Nav2 />
+          <BurgerNavigation />
         </ul>
       </nav>
     </Container>

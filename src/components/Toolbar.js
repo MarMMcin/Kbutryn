@@ -1,7 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router";
 import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
-import Nav from "./layouts/Navigation";
+import Navigation from "../components/Navigation/Navigation/Navigation";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -47,7 +47,7 @@ const toolbar = props => (
           <div className="spacer"></div>
           <div className="toolbar_navigation-items">
             <section className="page">
-              <Nav />
+              <Navigation />
             </section>
           </div>
         </nav>

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Krk1 from "../../images/Krk1.jpg";
 import Krk2 from "../../images/Krk2.jpg";
 import { Container, StyledH1, Photos } from "./Styled/Main.styled";
-import TextOFirmie from "./TextPages/TextOFirmie";
+import TextOFirmie from "../AboutCompany";
 
 class OFirmie extends Component {
   render() {

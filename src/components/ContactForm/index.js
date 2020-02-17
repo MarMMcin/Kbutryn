@@ -7,7 +7,7 @@ import {
   ContactInput,
   SendButton,
   FormTextarea
-} from "./ContactForm.styled";
+} from "./styles";
 
 class Form extends Component {
   state = {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Form from "./ContactForm";
+import Form from "../ContactForm";
 import {
   Container,
   HeaderSection,
@@ -11,7 +11,7 @@ import {
   EmailSection,
   BottomSection,
   BottomSectionInformation
-} from "./ContactText.styles";
+} from "./styles";
 
 class ContactText extends Component {
   render() {

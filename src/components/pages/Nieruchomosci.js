@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import nieruchomosc from "../../images/nieruchomosc.jpg";
 import nieruchomosc2 from "../../images/nieruchomosc2.jpg";
 import { Container, StyledH1, Photos } from "./Styled/Main.styled";
-import TextNierucho from "./TextPages/TextNierucho";
+import TextNierucho from "../Nieruchomosci";
 
 class Nieruchomosci extends Component {
   render() {

@@ -2,8 +2,8 @@ import React from "react";
 import { withRouter } from "react-router";
 import { NavLink, Link } from "react-router-dom";
 import styled from "styled-components";
-import LogoImg from "../../images/nieruch3.jpg";
-import MiniLogo from "../../images/LogoIcon4.png";
+import LogoImg from "../../../images/nieruch3.jpg";
+import MiniLogo from "../../../images/LogoIcon4.png";
 
 const list = [
   { name: "O firmie", path: "/ofirmie", exact: true },
@@ -61,7 +61,7 @@ border-bottom: 1px solid #333;
   }}
 `;
 
-const StyledLi = styled.li`
+const NavigationLi = styled.li`
   text-align: center;
   font-size: 0.8rem;
   opacity: 1;
@@ -86,7 +86,7 @@ const StyledLi = styled.li`
 
 const Navigation = () => {
   const menu = list.map(item => (
-    <StyledLi className="li" key={item.name}>
+    <NavigationLi className="li" key={item.name}>
       <NavLink
         to={item.path}
         exact={item.exact ? item.exact : false}
@@ -97,7 +97,7 @@ const Navigation = () => {
       >
         {item.name}
       </NavLink>
-    </StyledLi>
+    </NavigationLi>
   ));
   return (
     <>

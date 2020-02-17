@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "../../../images/bg.jpg";
+import bg from "../../images/bg.jpg";
 
 export const ContactSection = styled.div`
   background: black url(${bg}) no-repeat center;

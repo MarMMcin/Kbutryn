@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import bg from "../../../images/bg.jpg";
 
 export const StyledP = styled.span``;
 export const Container = styled.div`

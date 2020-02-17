@@ -1,27 +1,36 @@
 import React, { Component } from "react";
 
-import { StyledP } from "./TextOFirmie.styled";
-import logo2 from "../../../images/logo2.png";
-import logo1 from "../../../images/logo1.png";
-import Image from "./image";
+import {
+  Wrapper,
+  TextContainer,
+  TextInContainer,
+  BoldText,
+  ImageContainer
+} from "./styled";
+import styled from "styled-components";
+import Image from "../pages/TextPages/image";
+
 class TextOFirmie extends Component {
   render() {
     return (
       <>
-        <StyledP>
-          <div className="container">
-            <div className="tittle">
+        <Wrapper>
+          <TextContainer>
+            <TextInContainer>
               Obszarem działalności firmy jest szeroko rozumiana wycena
               nieruchomości, doradztwo w&nbsp;zakresie rynku nieruchomości,
               a&nbsp;także usługi w&nbsp;obszarze geodezji i&nbsp;kartografii.
-            </div>
-            <div className="about">
+            </TextInContainer>
+            <TextInContainer>
               Właścicielem firmy jest{" "}
-              <p> mgr inż. Krzysztof Butryn, geodeta, rzeczoznawca majątkowy</p>{" "}
+              <BoldText>
+                {" "}
+                mgr inż. Krzysztof Butryn, geodeta, rzeczoznawca majątkowy
+              </BoldText>{" "}
               posiadający uprawnienia zawodowe od 2018 roku (numer uprawnień
               7289).
-            </div>
-            <div className="text1">
+            </TextInContainer>
+            <TextInContainer>
               Absolwent Akademii Górniczo-Hutniczej im. S. Staszica
               w&nbsp;Krakowie na Wydziale Geodezji Górniczej i&nbsp;Inżynierii
               Środowiska, kierunek: Geodezja i&nbsp;Kartografia, specjalność:
@@ -32,8 +41,8 @@ class TextOFirmie extends Component {
               Studiach Podyplomowych w&nbsp;zakresie Szacowania Nieruchomości na{" "}
               Wydziale Geodezji Górniczej i&nbsp;Inżynierii Środowiska AGH
               w&nbsp;Krakowie.
-            </div>
-            <div className="text2">
+            </TextInContainer>
+            <TextInContainer>
               Z&nbsp;wyceną nieruchomości związany nieprzerwanie od 2014 roku.
               Na stanowisku asystenta rzeczoznawcy majątkowego i&nbsp;biegłego
               sądowego z&nbsp;zakresu szacowania nieruchomości brał w&nbsp;tym
@@ -63,12 +72,12 @@ class TextOFirmie extends Component {
                   </div>
                 </a>
               </div> */}
-            </div>
-          </div>{" "}
-          <div className="div6">
+            </TextInContainer>
+          </TextContainer>{" "}
+          <ImageContainer>
             <Image></Image>
-          </div>
-        </StyledP>
+          </ImageContainer>
+        </Wrapper>
       </>
     );
   }

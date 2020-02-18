@@ -73,4 +73,5 @@ export const FormTextarea = styled.textarea`
   height: 120px;
   :focus {
     box-shadow: 0 0 10px 4px #ec7801;
+  }
 `;

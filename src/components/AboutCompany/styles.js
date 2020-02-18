@@ -1,4 +1,30 @@
 import styled from "styled-components";
+export const Wrapper = styled.div`
+  padding: 2vh 20vw;
+  color: #444;
+  text-align: justify;
+  white-space: pre-line;
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+`;
+export const TextContainer = styled.div``;
+export const TextInContainer = styled.div`
+  margin: 2vh auto;
+  font-size: 16px;
+
+  @media (max-width: 800px) {
+    font-size: 12px;
+  }
+`;
+export const BoldText = styled.p`
+  font-weight: 600;
+`;
 
 export const ImageContainer = styled.div`
   position: relative;
@@ -16,32 +42,5 @@ export const ImageContainer = styled.div`
       margin-left: 0;
       min-width: 0;
     }
-  }
-`;
-
-export const BoldText = styled.p`
-  font-weight: 600;
-`;
-export const TextInContainer = styled.div`
-  margin: 2vh auto;
-  font-size: 16px;
-
-  @media (max-width: 800px) {
-    font-size: 12px;
-  }
-`;
-export const TextContainer = styled.div``;
-export const Wrapper = styled.div`
-  padding: 2vh 20vw;
-  color: #444;
-  text-align: justify;
-  white-space: pre-line;
-  display: flex;
-  flex-direction: row;
-
-  @media (max-width: 800px) {
-    flex-direction: column;
-    padding-right: 10vw;
-    padding-left: 10vw;
   }
 `;

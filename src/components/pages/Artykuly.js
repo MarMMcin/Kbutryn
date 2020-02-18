@@ -1,23 +1,21 @@
 import React, { Component } from "react";
 
-import { Container, StyledH1, Photos } from "./Styled/Main.styled";
+import { Container, StyledH1, Banner, TopImage, BottomImage } from "./styles";
 
-import kontakt1 from "../../images/artykulBaner.jpg";
-import kontakt2 from "../../images/artykulBaner1.jpg";
-import TextArtykuly from "./Articles/TextArtykuly";
+import artukul from "../../images/artykulBaner.jpg";
+import artukul2 from "../../images/artykulBaner1.jpg";
+import TextArtykuly from "../Articles/";
 
 class Artykuly extends Component {
   render() {
     return (
       <>
-        {" "}
         <Container>
-          <Photos>
-            <img className="top" src={kontakt1} alt="kontakt3" />
-            <img className="bottom" src={kontakt2} alt="kontakt4" />
+          <Banner>
+            <TopImage src={artukul} alt="artukul" />
+            <BottomImage src={artukul2} alt="artukul" />
             <StyledH1>ARTYKUŁY</StyledH1>
-          </Photos>
-
+          </Banner>
           <TextArtykuly />
         </Container>
       </>

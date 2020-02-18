@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import nieruchomosc from "../../images/nieruchomosc.jpg";
 import nieruchomosc2 from "../../images/nieruchomosc2.jpg";
-import { Container, StyledH1, Photos } from "./Styled/Main.styled";
+import { Container, StyledH1, Banner, TopImage, BottomImage } from "./styles";
 import TextNierucho from "../Nieruchomosci";
 
 class Nieruchomosci extends Component {
@@ -10,11 +10,11 @@ class Nieruchomosci extends Component {
       <>
         {" "}
         <Container>
-          <Photos>
-            <img className="top" src={nieruchomosc} alt="nieruchomosc" />
-            <img className="bottom" src={nieruchomosc2} alt="nieruchomosc2" />
+          <Banner>
+            <TopImage src={nieruchomosc} alt="nieruchomosc" />
+            <BottomImage src={nieruchomosc2} alt="nieruchomosc2" />
             <StyledH1>WYCENA NIERUCHOMOŚCI</StyledH1>
-          </Photos>
+          </Banner>
 
           <TextNierucho />
         </Container>

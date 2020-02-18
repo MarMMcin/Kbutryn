@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import Toolbar from "./components/Toolbar";
+import Toolbar from "./components/Toolbar/";
 import SideDrawer from "./components/SideDrawer/SideDrawer.js";
 import Backdrop from "./components/Backdrop/";
 import Page from "./components/layouts/Page";
 import { BrowserRouter } from "react-router-dom";
+import { GlobalStyles } from "./GlobalStyle";
 
 import styled from "styled-components";
 
@@ -38,6 +39,7 @@ class App extends Component {
     }
     return (
       <BrowserRouter>
+        <GlobalStyles />
         <StyledPage>
           <div style={{ height: "100%" }}>
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
@@ -45,7 +47,6 @@ class App extends Component {
           </div>
         </StyledPage>
         {<Page />}
-        {/* {<Footer></Footer>} */}
       </BrowserRouter>
     );
   }

@@ -1,15 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import { Error404 } from "./styles";
 
-const StyledP = styled.p`
-  font-size: 10vw;
-  text-align: center;
-  color: white;
-`;
 const ErrorPage = () => {
   return (
     <div>
-      <StyledP>Nie ma takiej strony 404</StyledP>
+      <Error404>Nie ma takiej strony 404</Error404>
     </div>
   );
 };

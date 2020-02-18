@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import { Container, StyledH1, Photos } from "./Styled/Main.styled";
+import { Container, StyledH1, Banner, TopImage, BottomImage } from "./styles";
 
 import kontakt1 from "../../images/kontakt1.jpg";
 import kontakt2 from "../../images/kontakt2.jpg";
-import TextContact from "../Form/index";
+import TextContact from "../Form/";
 
 class Contact extends Component {
   render() {
@@ -12,11 +12,11 @@ class Contact extends Component {
       <>
         {" "}
         <Container>
-          <Photos>
-            <img className="top" src={kontakt1} alt="kontakt1" />
-            <img className="bottom" src={kontakt2} alt="kontakt2" />
+          <Banner>
+            <TopImage src={kontakt1} alt="kontakt1" />
+            <BottomImage src={kontakt2} alt="kontakt2" />
             <StyledH1>KONTAKT</StyledH1>
-          </Photos>
+          </Banner>
 
           <TextContact />
         </Container>

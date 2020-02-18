@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Container, StyledH1, Photos } from "./Styled/Main.styled";
-import TxtPozostale from "./TextPages/TextPozostale";
+import { Container, StyledH1, Banner, TopImage, BottomImage } from "./styles";
+import TxtPozostale from "../Others/";
 import inne1 from "../../images/inne1.jpg";
 import inne from "../../images/inne.jpg";
 
@@ -10,11 +10,12 @@ class Pozostale extends Component {
       <>
         {" "}
         <Container>
-          <Photos>
-            <img className="top" src={inne1} alt="inne1" />
-            <img className="bottom" src={inne} alt="inne2" />
+          <Banner>
+            {" "}
+            <TopImage src={inne1} alt="inne1" />
+            <BottomImage src={inne} alt="inne2" />
             <StyledH1>POZOSTAŁE USŁUGI</StyledH1>
-          </Photos>
+          </Banner>
 
           <TxtPozostale />
         </Container>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, StyledH1, Photos } from "./Styled/Main.styled";
+import { Container, StyledH1, Banner, TopImage, BottomImage } from "./styles";
 import geodezja from "../../images/geodezja.jpg";
 import geodezja2 from "../../images/geodezja2.jpg";
 import TextGeodezja from "../Geodezja/";
@@ -10,11 +10,11 @@ class Geodezja extends Component {
       <>
         {" "}
         <Container>
-          <Photos>
-            <img className="top" src={geodezja} alt="geodezja" />
-            <img className="bottom" src={geodezja2} alt="geodezja2" />
+          <Banner>
+            <TopImage src={geodezja} alt="geodezja" />
+            <BottomImage src={geodezja2} alt="geodezja2" />
             <StyledH1>GEODEZJA</StyledH1>
-          </Photos>
+          </Banner>
 
           <TextGeodezja />
         </Container>

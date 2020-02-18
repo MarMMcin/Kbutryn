@@ -2,9 +2,9 @@ import React, { Component } from "react";
 
 import {
   Wrapper,
-  BoldTiitle,
+  BoldTiitleContainer,
   SecondText,
-  LiDots,
+  DotsList,
   Image,
   SecondTextContainer,
   Dot
@@ -15,17 +15,17 @@ class ContactText extends Component {
     return (
       <>
         <Wrapper>
-          <BoldTiitle>
+          <BoldTiitleContainer>
             Współpracujemy z uprawnionymi geodetami działającymi na terenie
             miasta Krakowa oraz pobliskich powiatów województwa małopolskiego.
-          </BoldTiitle>
+          </BoldTiitleContainer>
           <SecondTextContainer>
             <SecondText>
               Dzięki temu możemy zaoferować Państwu pełen zakres prac
               geodezyjnych, obejmujących m.in.:
             </SecondText>
           </SecondTextContainer>
-          <LiDots>
+          <DotsList>
             <Dot>mapy do celów projektowych</Dot>{" "}
             <Dot>
               tyczenia budynku, budowli lub elementów sieci uzbrojenia terenu
@@ -43,7 +43,7 @@ class ContactText extends Component {
             <Dot>mapy co celów prawnych</Dot>{" "}
             <Dot> wykazy synchronizacyjne i badanie ksiąg wieczystych </Dot>{" "}
             <Dot>projekty służebności gruntowych</Dot>
-          </LiDots>
+          </DotsList>
           <Image src={Geodezja3} alt="geodezja" />
         </Wrapper>
       </>

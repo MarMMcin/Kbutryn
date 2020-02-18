@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MenuContainer } from "./Styled/Main.styled";
+import { MenuContainer } from "./styles";
 import Krk1 from "../../images/Krk1.jpg";
 import { Link } from "react-router-dom";
 

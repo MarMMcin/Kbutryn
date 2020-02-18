@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import {
   Wrapper,
-  AboutInfo,
   TextInInfo,
   LargeDotsContainer,
   SingleDotsContainer,

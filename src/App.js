@@ -15,6 +15,9 @@ const StyledPage = styled.div`
     height: 0vh;
   }
 `;
+const NaviDiv = styled.div`
+  z-index: 1500;
+`;
 
 class App extends Component {
   state = {
@@ -41,10 +44,10 @@ class App extends Component {
       <BrowserRouter>
         <GlobalStyles />
         <StyledPage>
-          <div style={{ height: "100%" }}>
+          <NaviDiv style={{ height: "100%" }}>
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
             <SideDrawer show={this.state.sideDrawerOpen} /> {backdrop}
-          </div>
+          </NaviDiv>
         </StyledPage>
         {<Page />}
       </BrowserRouter>

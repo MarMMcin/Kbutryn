@@ -15,16 +15,16 @@ import articles from "./ArtykulyContent";
 class ArtComponent extends Component {
   render() {
     return articles.articles.map(article => (
-      <SingleArticleContainer className="mainDiv" key={shortid.generate()}>
+      <SingleArticleContainer key={shortid.generate()}>
         <Wrapper>
           <LinkToArticle
             target="_blank"
             rel="noopener noreferrer"
             href={article.pdf}
           >
-            <ContainerImage src={article.photo} alt="" className="photo" />{" "}
+            <ContainerImage src={article.photo} alt="photo" />{" "}
           </LinkToArticle>{" "}
-          <FlagImg src={article.language} alt="" className="flag" />
+          <FlagImg src={article.language} alt="flag" />
           <TextContainer>
             <ArticleTittle>{article.tittle} </ArticleTittle>
             <ArticleAuthos>{article.authors}</ArticleAuthos>{" "}

@@ -8,10 +8,8 @@ class Pozostale extends Component {
   render() {
     return (
       <>
-        {" "}
         <Container>
           <Banner>
-            {" "}
             <TopImage src={inne1} alt="inne1" />
             <BottomImage src={inne} alt="inne2" />
             <StyledH1>POZOSTAŁE USŁUGI</StyledH1>

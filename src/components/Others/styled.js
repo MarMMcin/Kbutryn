@@ -2,8 +2,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   overflow: auto;
   color: #444;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding: 0 8vw 0 8vw;
 `;
 export const GridContainer = styled.div`
   margin: 2vh;
@@ -30,9 +29,7 @@ export const RightMainBlock = styled.div`
 export const SmallHeader = styled.h2``;
 export const Header = styled.h1`
   font-size: 18px;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  padding-left: 0;
+  margin: 1vh 0 1vh 0;
   letter-spacing: 0px;
   font-weight: 600;
 

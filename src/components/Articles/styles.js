@@ -1,7 +1,9 @@
 import styled from "styled-components";
-export const Container = styled.div``;
-export const Wrapper = styled.span`
-  display: flex;
+export const Container = styled.div`
+  position: relative;
+
+  @media (max-width: 768px) {
+  }
 `;
 
 export const Tiitle = styled.div`
@@ -27,6 +29,7 @@ export const ArticlesContainer = styled.div`
   display: flex;
   flex-direction: row;
   padding: 0;
+
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

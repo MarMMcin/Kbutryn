@@ -7,12 +7,10 @@ export const ContactSection = styled.div`
   background-size: cover;
   padding: 40px 0;
   position: relative;
-  z-index: 1;
 `;
 export const FormTittle = styled.h1`
   text-align: center;
   color: #ec7801;
-  z-index: -1;
 `;
 export const BorderUnderTittle = styled.div`
   width: 200px;
@@ -46,7 +44,10 @@ export const ContactInput = styled.input`
 export const SendButton = styled.input`
   margin: auto;
   padding: 0 10px;
-  float: right;
+  position: relative;
+
+  left: 50%;
+  transform: translate(-50%, 0);
   border: 0;
   background: #ec7801;
   color: #fff;

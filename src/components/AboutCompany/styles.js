@@ -9,8 +9,7 @@ export const Wrapper = styled.div`
 
   @media (max-width: 800px) {
     flex-direction: column;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding: 0 10vw 0 10vw;
   }
 `;
 export const TextContainer = styled.div``;

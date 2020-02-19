@@ -82,6 +82,7 @@ export const BottomSection = styled.div`
 
   @media (max-width: 768px) {
     font-size: 0.8rem;
+    padding: 2vh 5vw 2vh 5vw;
   }
 `;
 

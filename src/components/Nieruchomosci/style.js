@@ -4,12 +4,10 @@ export const Wrapper = styled.div`
   margin-top: 20px;
   color: #444;
   padding: 2vh 20vw 0 20vw;
-  padding-top: 2vh;
   overflow-x: hidden !important;
 
   @media (max-width: 768px) {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding: 0 10vw 0 10vw;
   }
 `;
 export const TextInInfo = styled.p`
@@ -33,7 +31,6 @@ export const LargeDotsContainer = styled.div`
 `;
 export const SingleDotsContainer = styled.div`
   width: 30vw;
-  padding-top: 40px;
   font-size: 14px;
   padding-top: 20px;
 

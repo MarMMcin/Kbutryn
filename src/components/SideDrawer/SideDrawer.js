@@ -26,8 +26,7 @@ const Container = styled.div`
       list-style: none;
       display: flex;
       flex-direction: column;
-      margin-top: 20%;
-      margin-left: 10%;
+      margin: 20% 0 0 10%;
     }
     .side-drawer li {
       margin: 0.5rem;

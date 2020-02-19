@@ -4,11 +4,16 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media (max-width: 768px) {
+    margin-top: 42px;
+  }
 `;
+
 export const StyledH1 = styled.h1`
   position: absolute;
-  top: 7vh
-
+  top: 7vh;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   color: black;
   letter-spacing: 4px;
   width: 100vw;
@@ -19,7 +24,7 @@ export const StyledH1 = styled.h1`
   opacity: 0.8;
   z-index: -3;
   @media (max-width: 768px) {
-    top:7vh;
+    top: 7vh;
     font-size: 15px;
   }
 `;
@@ -30,12 +35,12 @@ export const Banner = styled.section`
   z-index: -1;
 `;
 export const TopImage = styled.img`
+  border: 1px solid black;
   position: absolute;
   height: 18vh;
   object-fit: cover;
-  z-index: -4;
-  width: 100vw;
   z-index: -3;
+  width: 100vw;
   animation-name: fade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -60,6 +65,7 @@ export const TopImage = styled.img`
   }
 `;
 export const BottomImage = styled.img`
+  border: 1px solid black;
   position: absolute;
   height: 18vh;
   object-fit: cover;
@@ -79,6 +85,7 @@ background-color: black;
 color: black;
 }
 .bg {
+  
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   top:0;
@@ -98,6 +105,7 @@ img {
   object-fit: cover;
   width: 100vw;
   height: 90vh;
+  
 
 }
 .container {
@@ -106,7 +114,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;  z-index: -1;
+  width: 100%; 
 
 }
 .container span {

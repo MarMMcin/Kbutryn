@@ -8,9 +8,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 2vh;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding: 2vh 8vw 0 8vw;
 `;
 export const BoldTiitleContainer = styled.div`
   justify-content: flex-start;

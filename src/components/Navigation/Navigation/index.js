@@ -65,8 +65,7 @@ const NavigationLi = styled.li`
   text-align: center;
   font-size: 0.8rem;
   opacity: 1;
-  padding-top: 5vh;
-  padding-left: 15px;
+  padding: 5vh 0 0 15px;
   list-style-type: none;
   z-index: 200;
   :last-of-type {

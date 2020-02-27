@@ -6,12 +6,16 @@ import styled from "styled-components";
 
 const Container = styled.div`
   @media (max-width: 768px) {
+    .toolbar__dTB {
+      position: relative;
+    }
     .toolbar_navigation-items {
-      z-index: 200;
+      position: relative;
       display: none;
     }
     .toolbar {
       position: fixed;
+      z-index: 100;
       top: 0;
       left: 0;
       width: 100%;

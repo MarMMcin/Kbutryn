@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const ToggleButton = styled.button`
   position: fixed;
-  width: 60vw;
+  width: 65vw;
   top: 0;
   left: 0;
   background-color: white;
@@ -20,16 +20,13 @@ const ToggleButton = styled.button`
 
 const LogoWrapper = styled.div`
   position: fixed;
-
   left: 80%;
-  background-color: white;
   transform: translate(-50%);
 `;
 const Logo = styled.img`
- 
+   z-index: 10000;
  margin: 5px 0 0 15vw;
   width: 100px;
-  background-color: white;
   height: auto;
 
   }
@@ -38,7 +35,7 @@ const Div = styled.div`
   position: fixed;
   width: 50vw;
   height: 43px;
-  background-color: white !important;
+  background-color: white;
   right: 0;
   border-bottom: 1px solid black;
 `;

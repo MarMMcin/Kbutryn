@@ -22,7 +22,7 @@ class ArtComponent extends Component {
             rel="noopener noreferrer"
             href={article.pdf}
           >
-            <ContainerImage src={article.photo} alt="photo" />{" "}
+            <ContainerImage src={article.photo} alt="photo" />
           </LinkToArticle>{" "}
           <FlagImg src={article.language} alt="flag" />
           <TextContainer>

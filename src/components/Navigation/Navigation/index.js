@@ -20,6 +20,7 @@ const Menu = styled.div`
   font-size: 1rem;
   position: absolute;
   flex-direction: row;
+
   width: 100vw;
   flex-wrap: nowrap;
   justify-content: flex-end;
@@ -45,7 +46,6 @@ const LogoAll = styled.div`
   position: absolute;
   width: 100vw;
   height: 12vh;
-
   overflow: hidden;
   opacity:0.2;
   z-index: -20;

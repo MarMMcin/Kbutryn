@@ -3,8 +3,10 @@ import BurgerNavigation from "../Navigation/BurgerNavigation";
 import styled from "styled-components";
 
 const Container = styled.div`
-   {
+   
     .side-drawer {
+      position: relative;
+      z-index: 200;
       height: 100%;
       background-color: rgba(256, 256, 256, 0.9);
       position: fixed;
@@ -13,7 +15,6 @@ const Container = styled.div`
       list-style: none;
       width: 70%;
       max-width: 400px;
-      z-index: 200;
       transform: translateX(-100%);
       transition: transform 0.3s ease-out;
     }

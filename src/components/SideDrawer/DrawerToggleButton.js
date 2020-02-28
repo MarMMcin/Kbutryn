@@ -12,7 +12,7 @@ const ToggleButton = styled.button`
   padding: 0;
   border: none;
   border-bottom: 1px solid black;
-  z-index: 10000;
+  z-index: 1;
   outline: none;
   &:hover {
   }
@@ -32,6 +32,7 @@ const Logo = styled.img`
   }
 `;
 const Div = styled.div`
+  z-index: 100;
   position: fixed;
   width: 50vw;
   height: 43px;

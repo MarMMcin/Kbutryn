@@ -8,7 +8,6 @@ export const Container = styled.div`
 
 export const Tiitle = styled.div`
   position: relative;
-  z-index: -1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,8 +31,6 @@ export const LinkToPublications = styled.a`
 `;
 export const ArticlesContainer = styled.div`
   position: relative;
-  z-index: 1;
-
   display: flex;
   flex-direction: row;
   padding: 0;
